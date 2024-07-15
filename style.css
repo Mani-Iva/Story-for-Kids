@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    color: aliceblue;
+}
+.main
+{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh; 
+}
+.video-container
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 2px rgb(212, 24, 172);
+}
+.video-container video{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content{
+    z-index: 1;
+    text-align: center;
+}
+.content h1{
+    font-size: 60px;
+}
+.content a{
+    color: rgb(8, 236, 58);
+
+}
+.mid-section{
+    background-color: burlywood;
+    margin-top: 200px;
+}
+.mid-section h1{
+    color: brown;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+.mid-section p{
+    margin-left: 10px;
+}
+.mid-section p::first-letter{
+    color: black;
+    font-size: 40px;
+}
+.foot{
+    text-align: center;
+}
+.foot h1{
+    color: darkcyan;
+}
+.icon{
+    color: rgb(212, 24, 172);
+}
